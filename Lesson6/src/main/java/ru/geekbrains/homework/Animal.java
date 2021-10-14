@@ -1,7 +1,7 @@
 package ru.geekbrains.homework;
 
 public abstract class Animal {
-    public static int countAnimals;
+    protected static int countAnimals;
     protected String name;
     protected int age;
     protected String color;

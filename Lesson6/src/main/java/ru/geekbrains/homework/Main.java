@@ -9,11 +9,6 @@ public class Main {
             };
 
         for(Animal animal:animals){
-            if (animal instanceof Cat) {
-                Cat.countCats++;
-            } else if (animal instanceof Dog) {
-                Dog.countDogs++;
-            }
             animal.run(20);
             animal.swim(0);
             Animal.countAnimals++;

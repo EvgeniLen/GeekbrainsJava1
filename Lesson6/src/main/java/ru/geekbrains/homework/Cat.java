@@ -1,10 +1,12 @@
 package ru.geekbrains.homework;
 
 public class Cat extends Animal{
-    public static int countCats;
+    protected static int countCats;
 
     public Cat(String name, int age, String color) {
         super(name, age, color);
+        countCats++;
+        countAnimals++;
     }
 
     @Override
